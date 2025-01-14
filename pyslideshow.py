@@ -17,7 +17,7 @@ class PresentationApp:
         self.root.configure(background="white")
 
         # Fontin rekisteröinti
-        self.root.tk.call("font", "create", "ComputerModern", "-family", "ComputerModern", "-size", 16, "-weight", "normal")
+        self.root.tk.call("font", "create", "ComputerModern", "-family", "CMU Serif", "-size", 16, "-weight", "normal")
         self.custom_font = "ComputerModern"
 
         # Esityksen tila
